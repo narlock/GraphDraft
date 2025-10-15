@@ -1,0 +1,6 @@
+spring:
+  config:
+    import: "file:${user.home}/Documents/narlock/common/ollama.properties" # Contains ollama.url
+
+server:
+  port: 8180

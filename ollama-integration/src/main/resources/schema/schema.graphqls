@@ -1,0 +1,35 @@
+type Query {
+    listModels: [OllamaModel!]!
+    chatRequest(model: String!, messages: [MessageInput!]!): OllamaCompletion!
+}
+
+input MessageInput {
+    role: String!
+    content: String!
+}
+
+type OllamaModel {
+    name: String!
+    modifiedAt: String
+    digest: String
+    details: OllamaModelDetails
+}
+
+type OllamaModelDetails {
+    format: String!
+    family: String
+    parameterSize: String!
+    quantizationLevel: String!
+}
+
+type OllamaCompletion {
+    model: String!
+    createdAt: String
+    message: OllamaCompletionMessage
+    done: Boolean!
+}
+
+type OllamaCompletionMessage {
+    role: String!
+    content: String!
+}
