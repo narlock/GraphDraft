@@ -47,3 +47,4 @@ Each of these interfaces work similarly. The user will import their OpenAPI spec
 
 ## Future Work
 - Add GitHub actions workflow on main branch that will build and run tests.
+- Implement configuration setting that will automatically open user's favorite text editor with the draft GraphQL schema file opened.
