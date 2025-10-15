@@ -4,8 +4,9 @@
 
 ![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 ### Backend
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
@@ -43,7 +44,7 @@ Each of these interfaces work similarly. The user will import their OpenAPI spec
 
 #### Notes
 - For use of the Desktop Electron interface, navigate to the [releases]() tab on GitHub and download and install the version that corresponds to your operating system.
-- To use the CLI, ensure that the GraphDraft server has begun (Ollama integration), give permission to run the `graphdraft.sh` script (`chmod +x graphdraft.sh`), and then run the `graphdraft.sh` script. The CLI will ask for the path to the OpenAPI specification to be converted.
+- For use of the CLI, refer to the [CLI README](/cli/README.md).
 
 ## Future Work
 - Add GitHub actions workflow on main branch that will build and run tests.
