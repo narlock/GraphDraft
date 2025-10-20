@@ -76,6 +76,7 @@ We will do EACH endpoint ("/users/" would be an endpoint, including the GET, POS
 
 #### For each of the paths:
 ```json
+[
     {
         "role": "assistant",
         "content": "Previously defined GraphQL schema: <Contents of currently converted GraphQL schema>"
